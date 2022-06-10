@@ -4,6 +4,30 @@
 <title>Table</title>
 <meta charset="utf-8">
 <meta name="viewport" content="width=device-width, initial-scale=1">
+<style>
+#person {
+    border-collapse: collapse;
+    width:100%;
+    font-family: Arial, Arial, Helvetica, sans-serif;
+} 
+#person th , #person td {
+    background-color: #ddd;
+    border:2px solid black;
+    padding:10px;
+}
+#person tr:hover {
+    background-color: #ddd;
+}
+#person tr:nth-child(even) {background-color: #f2f2f2;}
+
+#person th {
+    background-color: #04AA6D;
+    padding-top: 10px;
+    padding-bottom: 10px;
+    color:white; 
+    text-align: left;
+}
+</style>
 </head>
 <body>
 <table id="person">
